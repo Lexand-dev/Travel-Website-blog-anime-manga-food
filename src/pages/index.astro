@@ -11,11 +11,11 @@
   </head>
   <body>
     <div
-      class="bg-[url('https://i.ibb.co/bWz3YWG/Header.jpg')] bg-cover bg-no-repeat aspect-video"
+      class="bg-[url('https://i.ibb.co/bWz3YWG/Header.jpg')] bg-cover bg-center bg-no-repeat h-screen m-auto"
     >
-      <section class="h-screen">
+      <section class="">
         <header class="">
-          <nav class="w-96 m-auto border-b pb-4">
+          <nav class="w-auto md:w-96 m-auto border-b pb-4">
             <ul class="font-junge flex justify-center gap-4 pt-8 text-white">
               <li><a href="/">Home</a></li>
               <li><a href="/about">About 2023</a></li>
@@ -23,9 +23,9 @@
             </ul>
           </nav>
         </header>
-        <div class="container mt-96">
+        <div class="h-screen w-full flex justify-center items-center">
           <h1
-            class="font-junge text-center m-auto text-9xl lg:text-[15rem] text-white"
+            class="font-junge text-center m-auto text-5xl md:text-7xl lg:text-9xl text-white"
           >
             Japan
           </h1>
@@ -34,10 +34,12 @@
     </div>
     <main class="">
       <div
-        class="bg-[url('https://i.ibb.co/drb6jsy/japan1.jpg')] bg-cover w-full h-screen flex flex-col"
+        class="bg-[url('https://i.ibb.co/drb6jsy/japan1.jpg')] bg-cover bg-center w-full h-screen"
       >
-        <nav class="w-96 mr-auto pb-4 px-52">
-          <ul class="font-conforta flex justify-center gap-4 pt-8 text-white">
+        <nav class="xs:mx-auto w-auto md:w-96 lg:mr-auto pb-4 md:px-52">
+          <ul
+            class="font-conforta flex justify-center gap-4 pt-8 text-white text-sm"
+          >
             <li class="hover:border-b hover:text-yellow-400">
               <a href="/">Home</a>
             </li>
@@ -55,13 +57,17 @@
             </li>
           </ul>
         </nav>
-        <div class="mt-72">
-          <div class="container text-center mx-auto w-96 h-96">
+        <div class="w-full h-screen flex flex-col justify-center items-center">
+          <div
+            class="container text-center text-base mx-auto w-64 md:w-96 md:h-96"
+          >
             <p class="text-white">日本</p>
-            <h2 class="font-junge text-center text-8xl pb-10 text-white">
+            <h2
+              class="font-junge text-center text-5xl md:text-8xl pb-10 text-white"
+            >
               Japan
             </h2>
-            <p class="text-white text-xl text-center font-conforta pb-4">
+            <p class="text-white text-base text-center font-conforta pb-4">
               Japan is a country locadet in East Asia. It is one of the most
               developed countries in the world with a unique culture and
               traditions.
@@ -71,13 +77,17 @@
         </div>
       </div>
       <div
-        class="bg-[url('https://i.ibb.co/bWz3YWG/Header.jpg')] bg-cover w-full h-screen flex flex-col items-center justify-center"
+        class="bg-[url('https://i.ibb.co/bWz3YWG/Header.jpg')] bg-cover bg-center w-full h-screen flex flex-col items-center justify-center"
       >
-        <div class="container text-center mx-auto w-96 h-96">
-          <h2 class="font-junge text-center text-4xl pb-10 text-white">
+        <div class="container text-center mx-auto w-64 md:w-96 md:h-96">
+          <h2
+            class="font-junge text-center text-2xl md:text-4xl pb-10 text-white"
+          >
             Beatiful places
           </h2>
-          <p class="text-white text-xl text-center font-conforta pb-4">
+          <p
+            class="text-white text-base md:text-xl text-center font-conforta pb-4"
+          >
             Japan is also know for its beautiful places such as Mount Fuji,
             Fushimi Inari Shrine and Tokyo Disneyland. These places attract
             millions of tourists every year and are the main attractions of the
@@ -85,35 +95,211 @@
           </p>
         </div>
       </div>
-      <div class="bg-black w-full h-screen">
-        <div class="container bg-black p-8 m-auto">
+      <section class="bg-black w-full h-auto lg:h-auto">
+        <div
+          class="container bg-black p-8 md:px-10 md:py-20 lg:m-auto md:h-screen"
+        >
           <div
-            class="grid grid-cols-1 lg:grid-cols-5 gap-y-8 lg:gap-8 font-conforta text-white text-xl"
+            class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-5 lg:grid-cols-5 lg:gap-y-8 lg:gap-8 font-conforta text-white text-xl"
           >
             <div
-              class="h-96 lg:col-span-3 bg-[url(https://i.ibb.co/BfScFFk/fuji-san.jpg)] bg-cover"
+              class="lg:h-96 md:h-56 lg:col-span-3 bg-[url(https://i.ibb.co/BfScFFk/fuji-san.jpg)] bg-center bg-cover"
             >
-              <p class="px-5 pt-80">Fuji-san</p>
+              <p class="px-5 lg:pt-80 md:pt-48">Fuji-san</p>
             </div>
             <div
-              class="h-96 lg:col-span-2 bg-[url(https://i.ibb.co/Gp6xtkr/hakone.jpg)] bg-cover"
+              class="lg:h-96 md:h-56 lg:col-span-2 bg-[url(https://i.ibb.co/Gp6xtkr/hakone.jpg)] bg-center bg-cover"
             >
-              <p class="px-5 pt-80">Hakone</p>
+              <p class="px-5 lg:pt-80 md:pt-48">Hakone</p>
             </div>
             <div
-              class="h-96 lg:col-span-2 bg-[url(https://i.ibb.co/26wWRS9/tokio.jpg)] bg-cover"
+              class="lg:h-96 md:h-56 lg:col-span-2 bg-[url(https://i.ibb.co/26wWRS9/tokio.jpg)] bg-center bg-cover"
             >
-              <p class="px-5 pt-80">Tokyo</p>
+              <p class="px-5 lg:pt-80 md:pt-48">Tokyo</p>
             </div>
             <div
-              class="h-96 lg:col-span-3 bg-[url(https://i.ibb.co/qFNCcgn/kyoto.jpg)] bg-cover"
+              class="lg:h-96 md:h-56 lg:col-span-3 bg-[url(https://i.ibb.co/qFNCcgn/kyoto.jpg)] bg-center bg-cover"
             >
-              <p class="px-5 pt-80">Kyoto</p>
+              <p class="px-5 lg:pt-80 md:pt-48">Kyoto</p>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section
+        class="h-auto md:h-screen w-full flex flex-col justify-center py-40 md:py-0 bg-black"
+      >
+        <div
+          class="bg-[url(https://i.ibb.co/NnQtrdJ/anime-manga.jpg)] opacity-70 bg-cover bg-center h-96 md:h-[20rem] lg:h-[40rem] flex items-center"
+        >
+          <article class="container">
+            <h2
+              class="text-center font-conforta text-xl md:text-7xl lg:text-9xl text-white font-bold"
+            >
+              ANIME/MANGA
+            </h2>
+          </article>
+        </div>
+      </section>
+      <section class="h-auto md:h-screen w-auto md:py-10 bg-black">
+        <div
+          class="w-full flex flex-col md:flex-row md:justify-between gap-y-10 py-40 md:py-0 items-center md:items-center md:px-8"
+        >
+          <article
+            class="text-white w-64 lg:w-[30rem] md:text-left lg:text-left text-center lg:pr-20"
+          >
+            <h3 class="font-junge text-xl lg:text-2xl">Anime</h3>
+            <p class="font-conforta pt-4 lg:text-xl">
+              Anime is a Japanese animation that is becoming more and more
+              popular every year around the world. It is an art form that
+              combines various genres such as comedy, drama, romance,fantasy and
+              more.
+            </p>
+          </article>
+          <img
+            src="https://i.ibb.co/Kqdgkxr/anime.jpg"
+            alt="anime"
+            class="bg-contain bg-center px-8 md:pl-8 h-60 md:h-[30rem] md:max-w-lg lg:max-h-[50rem] lg:max-w-2xl"
+          />
+        </div>
+      </section>
+      <section class="h-auto md:h-screen w-auto md:py-10 bg-black">
+        <div
+          class="w-full flex flex-col md:flex-row md:justify-between gap-y-10 py-40 md:py-0 items-center md:items-center md:px-8"
+        >
+          <img
+            src="https://i.ibb.co/brsHDyF/manga.jpg"
+            alt="anime"
+            class="bg-contain bg-center px-8 md:pl-8 h-60 md:h-[30rem] md:max-w-lg lg:max-h-[50rem] lg:max-w-2xl"
+          />
+          <article
+            class="text-white w-64 lg:w-[30rem] md:text-left lg:text-left text-center lg:pr-20"
+          >
+            <h3 class="font-junge text-xl lg:text-2xl">Manga</h3>
+            <p class="font-conforta pt-4 lg:text-xl">
+              Manga are Japanese comics that are read from right to left. They
+              differ from Western comics in their drawing style, plot feature
+              and themes. Manga exists in different genres such as action,
+              romance, comedy, drama, fantasy and more. It is hugely popular all
+              over the world, and many famous anime are adaptations of manga.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="h-auto md:h-screen w-full flex flex-col justify-center py-40 md:py-0 bg-black"
+      >
+        <div
+          class="bg-[url(https://i.ibb.co/NYmNhdR/food.jpg)] opacity-70 bg-cover bg-center h-96 md:h-[20rem] lg:h-[40rem] flex items-center"
+        >
+          <article class="container">
+            <h2
+              class="text-center font-conforta text-xl md:text-7xl lg:text-9xl text-white font-bold"
+            >
+              FOOD
+            </h2>
+          </article>
+        </div>
+      </section>
+      <section class="h-auto md:h-screen w-auto md:py-10 bg-black">
+        <div
+          class="w-full flex flex-col md:flex-row md:justify-between gap-y-10 py-40 md:py-0 items-center md:items-center md:px-8"
+        >
+          <article
+            class="text-white w-64 lg:w-[30rem] md:text-left lg:text-left text-center lg:pr-20"
+          >
+            <h3 class="font-junge text-xl lg:text-2xl">Japanese food</h3>
+            <p class="font-conforta pt-4 lg:text-xl">
+              Japan is also know for its cuisine, which includes many dishes
+              such as sushi, ramen, and udon. These dishes are prepared using
+              fresh ingredients and have a unique taste that cannot be found in
+              other countries.
+            </p>
+          </article>
+          <img
+            src="https://i.ibb.co/BHJQqBx/japanese-food.jpg"
+            alt="japanese food"
+            class="bg-contain bg-center px-8 md:pl-8 h-60 md:h-[30rem] md:max-w-lg lg:max-h-[50rem] lg:max-w-2xl"
+          />
+        </div>
+      </section>
+      <section class="h-auto md:h-screen w-auto md:py-10 bg-black">
+        <div
+          class="w-full flex flex-col md:flex-row md:justify-between gap-y-10 py-40 md:py-0 items-center md:items-center md:px-8"
+        >
+          <img
+            src="https://i.ibb.co/YZph6bt/addition.jpg"
+            alt="addition"
+            class="bg-contain bg-center px-8 md:pl-8 h-60 md:h-[30rem] md:max-w-lg lg:max-h-[50rem] lg:max-w-2xl"
+          />
+          <article
+            class="text-white w-64 lg:w-[30rem] md:text-left lg:text-left text-center lg:pr-20"
+          >
+            <h3 class="font-junge text-xl lg:text-2xl">Addition</h3>
+            <p class="font-conforta pt-4 lg:text-xl">
+              Japanese cuisine is also known for its delicious desserts such as
+              Mochi (sweet rice cakes), Dorayaki (stuffed pancakes), and Taiyaki
+              (fish-shaped cakes). These desserts are very popular among
+              tourists and locals alike.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="h-auto lg:h-screen w-full flex justify-center items-center bg-black"
+      >
+        <div class="grid grid-cols-1 lg:grid-cols-4">
+          <div class="w-auto">
+            <img
+              src="https://i.ibb.co/Xxw3Z8b/food-1.jpg"
+              alt="kyoto"
+              class="w-full h-full bg-center object-cover"
+            />
+          </div>
+          <div class="w-auto">
+            <img
+              src="https://i.ibb.co/PFX5b3f/food-2.jpg"
+              alt="kyoto"
+              class="w-full h-full bg-center object-cover"
+            />
+          </div>
+          <div class="w-auto">
+            <img
+              src="https://i.ibb.co/SXH247H/food-3.jpg"
+              alt="kyoto"
+              class="w-full h-full bg-center object-cover"
+            />
+          </div>
+          <div class="w-auto">
+            <img
+              src="https://i.ibb.co/rvjQnQJ/food-4.jpg"
+              alt="kyoto"
+              class="w-full h-full bg-center object-cover"
+            />
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <div class="bg-black py-5 text-center lg:text-xl lg:pb-36 text-white">
+        <p class="font-junge lg:text-3xl pb-2">Maybe go get some sushi?</p>
+        <p class="font-conforta pb-2">Thank you</p>
+        <p>🤍</p>
+        <div class="flex flex-col pt-4">
+          <a
+            class="font-conforta text-xs underline"
+            href="https://www.behanc e.net/aldynadygool"
+          >
+            Design by Aldyn Adygool</a
+          >
+          <a
+            class="font-conforta text-xs underline pt-4"
+            href="https://github.com/Lexand-dev"
+          >
+            developed by Lexand Dev</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Junge&display=swap");
